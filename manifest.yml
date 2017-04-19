@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jk-test1
+  host: jk-test1
+  disk_quota: 1024M
+  services:
+  - jk-test1-cloudantNoSQLDB
+  - jk-test1-iotf-service
